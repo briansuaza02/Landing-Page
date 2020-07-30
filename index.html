@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header id="header">
-        <nav id="nav-bar">
+      <div class="logo">
+        <img
+          id="header-img"
+          src="https://i.pinimg.com/736x/d0/5a/16/d05a16e09b16a1b3245b27a399366767.jpg"
+          alt="buquet de flores"
+        />
+      </div>
+      <nav id="nav-bar">
         <ul>
           <li>
             <a class="nav-link" href="#tipo-buquets">Tipos de Buquets</a>
@@ -17,99 +24,126 @@
           <li><a class="nav-link" href="#sec-precios">Precios</a></li>
         </ul>
       </nav>
-      <div class="logo">
-        <img
-          id="header-img"
-          src="https://i.pinimg.com/736x/d0/5a/16/d05a16e09b16a1b3245b27a399366767.jpg"
-          alt="buquet de flores"
-        />
-      </div>
     </header>
-    <div class="container"></div>
-    <section id="correo">
-      <h1 id="title">Ordene sus pedidos</h1>
-      <form id="form" action="https://www.floristeriasdecolombia.com/">
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="ingrese su email"
-          required/>
-        <input id="submit" class="btn" type="submit" name="submit" value="enviar" />
-      </form>
-    </section>
-    <section id="tipo-buquets">
-      <div id="cuerpo">
-        <h2>Buquet basico</h2>
-        <p> 
-        <img id="img-basico" src="https://previews.123rf.com/images/martialred/martialred1610/martialred161000090/65884014-seis-de-p%C3%A9talos-de-flores-de-gr%C3%A1ficos-de-iconos-de-flores-o-l%C3%ADnea-de-floraci%C3%B3n-para-aplicaciones-y-sitios-web.jpg">Contiene 20 flores, anastacias, rosas y margaritas
-      </p>
-      </div>
-      <div id="cuerpo">
-        <h2>Buquet elaborado</h2>
-        <p>
-          <img id="img-elaborado" src="https://image.flaticon.com/icons/png/512/37/37781.png"> Contiene 30 flores, anastacias, rosas, margaritas y aves paraiso
-          </p>
-      </div>
-      <div id="cuerpo">
-        <h2>Buquet premium</h2>
-        <p>
-          <img id="img-premium" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRM_e4iM2nLYHjQf4HmB7yT6KNysN3S8W7nlw&usqp=CAU"> Contiene530 flores, anastacias, rosas, margaritas, aves paraiso,
-          cremon, fully y girasol
-        </p>
-      </div>
-    </section>
-    <section id="sec_video">
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0WXoIQX55GQ" frameborder="0"
-         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-         ></iframe>
-    </section>
-    <section id="sec-precios">
-        <div class="precios" id="basico">
-            <div class="cam_precio">Buquet Basico</div>
-            <h2>$20000</h2>
-            <ol>
-              <li>basico,</li>
-              <li>portable</li>
-              <li>para toda ocacion y </li>
-              <li> a buen precio.</li>
-            </ol>
-            <button class="btn">SELECCIONAR</button>
-            </div>
-          <div class="precios" id="elaborado">
-            <div class="cam_precio">Buquet elaborado</div>
-            <h2>$40000</h2>
-            <ol>
-              <li>variedad de flor con</li>
-              <li>buquet a peticion</li>
-              <li>para toda ocacion y</li>
-              <li>domicilio gratis</li>
-            </ol>
-            <button class="btn">SELECCIONAR</button>
-         </div>
-         <div class="precios" id="premiunm">
-            <div class="cam_precio">Buquet premium</div>
-            <h2>$60000</h2>
-            <ol>
-              <li>variedad de flor con</li>
-              <li>buquet a peticion</li>
-              <li>para toda ocacion con</li>
-              <li>domicilio gratis y</li>
-              <li>descuento 10%</li>
-            </ol>
-            <button class="btn">SELECCIONAR</button>
+
+    <div class="container">
+      <section id="correo">
+        <h1 id="title">Ordene sus pedidos</h1>
+        <form id="form" action="https://www.floristeriasdecolombia.com/">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="ingrese su email"
+            required
+          /><br />
+          <input
+            id="submit"
+            class="btn"
+            type="submit"
+            name="submit"
+            value="enviar"
+          />
+        </form>
+      </section>
+      <section id="tipo-buquets">
+        <div class="cuerpo">
+          <div class="div-img">
+            <img class="img-p"
+              src="https://previews.123rf.com/images/martialred/martialred1610/martialred161000090/65884014-seis-de-p%C3%A9talos-de-flores-de-gr%C3%A1ficos-de-iconos-de-flores-o-l%C3%ADnea-de-floraci%C3%B3n-para-aplicaciones-y-sitios-web.jpg"
+            />
+          </div>
+          <div>
+            <h2>Buquet basico</h2>
+            <p>
+              Contiene 20 flores, anastacias, rosas y margaritas
+            </p>
+          </div>
         </div>
-    </section>
-    <footer>
-    <ul>
-        <li><a href="#">Privacidad</a></li>
+        <div class="cuerpo">
+          <div class="div-img">
+            <img class="img-p" src="https://image.flaticon.com/icons/png/512/37/37781.png" />
+          </div>
 
-        <li><a href="#">Terminos</a></li>
+          <div>
+            <h2>Buquet elaborado</h2>
+            <p>
+              Contiene 30 flores, anastacias, rosas, margaritas y aves paraiso
+            </p>
+          </div>
+        </div>
+        <div class="cuerpo">
+          <div class="div-img">
+            <img class="img-p"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRM_e4iM2nLYHjQf4HmB7yT6KNysN3S8W7nlw&usqp=CAU"
+            />
+          </div>
+          <div>
+            <h2>Buquet premium</h2>
+            <p>
+              Contiene 530 flores, anastacias, rosas, margaritas, aves paraiso,
+              cremon, fully y girasol
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="sec_video">
+        <iframe id="video"
+          id="video"
+          src="https://www.youtube.com/embed/0WXoIQX55GQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-        <li><a href="#">Contactos</a></li>
-      </ul>
-      <span>Copyright 2016, Buquets de Flores</span>
-    </footer>
-   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <section id="sec-precios">
+        <div class="precios" id="basico">
+          <div class="cam_precio">Buquet Basico</div>
+          <h2>$20000</h2>
+          <ol>
+            <li>basico,</li>
+            <li>portable</li>
+            <li>para toda ocacion y</li>
+            <li>a buen precio.</li>
+          </ol>
+          <button class="btn">SELECCIONAR</button>
+        </div>
+        <div class="precios" id="elaborado">
+          <div class="cam_precio">Buquet elaborado</div>
+          <h2>$40000</h2>
+          <ol>
+            <li>variedad de flor con</li>
+            <li>buquet a peticion</li>
+            <li>para toda ocacion y</li>
+            <li>domicilio gratis</li>
+          </ol>
+          <button class="btn">SELECCIONAR</button>
+        </div>
+        <div class="precios" id="premiunm">
+          <div class="cam_precio">Buquet premium</div>
+          <h2>$60000</h2>
+          <ol>
+            <li>variedad de flor con</li>
+            <li>buquet a peticion</li>
+            <li>para toda ocacion con</li>
+            <li>domicilio gratis y</li>
+            <li>descuento 10%</li>
+          </ol>
+          <button class="btn">SELECCIONAR</button>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacidad</a></li>
+
+          <li><a href="#">Terminos</a></li>
+
+          <li><a href="#">Contactos</a></li>
+        </ul>
+        <span>Copyright 2016, Buquets de Flores</span>
+      </footer>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </div>
   </body>
 </html>

@@ -1,43 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
     background-color: rgb(237, 245, 245);
     font-family: 'Lato', sans-serif;
   }
-  header #header-img{  
+  header{
+    width: 100%;
+    height: 100px;
+    background: lightslategrey;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+  }
+   #header-img{  
 width: 150px;
 height: 70px;
-margin-left: 40px;
-position: fixed;
+margin-left: 50px;
   }
-
-
-  #submit{
-    background-color: lightcoral;
-  }
- #nav-bar ul{
-    margin: 0;
-    padding: 0;
- }
- nav {
+  nav {
     margin-top: 2px;
-    width: 95%;
+    width: 600px;
+    height: 100%;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    /* flex-direction: column;
     align-items: flex-end;
     text-align: end;
     padding: 5px;
     position: fixed;
-    margin-bottom: 45px;
-  }
-  nav li {
-    padding-bottom: 5px;
+    margin-bottom: 45px; */
   }
 
-
-nav > ul {
-  width: 35vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  
+ #nav-bar ul{
+    margin: 0;
+    padding: 0;
+ }
+ 
+#submit{
+  background-color: lightcoral;
 }
  
  li {
@@ -48,39 +51,54 @@ nav > ul {
  #nav-bar a {
     color: #000;
     text-decoration: none;
-    padding: 5px;
+    margin: 20px;
   }
-  #img-basico{
-    width: 80px;
-    height: 80px;
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  #img-elaborado{
+  #tipo-buquets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img{
+    width: 100px;
+    height: 100px;
+  }
+  .img-p{
     width: 50px;
     height: 50px;
   }
-  #img-premium{
-    width: 50px;
-    height: 50px;
+  .cuerpo{
+display: flex;
+align-items: center;
+margin-left: 350px;
+/* justify-content: space-evenly; */
   }
-  .tipo-buquets {
-    max-width: 100px;
-    width: 100%;
-    margin: 0 auto;
+  .div-img{
+    padding: 15px;
   }
+  
   #correo{
 text-align: center;
+margin-top: 200px;
   }
-  #cuerpo{
-     display: flex;
-     flex-direction: column;
-     text-align: left;
-     padding: 1px;
-     margin-left: 250px;
-
-  }
+  
  #sec_video{
    display: flex;
    justify-content: center;
+ }
+ #video{
+width: 560px;
+height: 315px;
+ }
+ @media (max-width: 500px){
+   #video{
+     width: 300px;
+     height: 200px;
+   }
  }
   
   
